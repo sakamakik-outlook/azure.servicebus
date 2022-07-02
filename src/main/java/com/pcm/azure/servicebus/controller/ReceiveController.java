@@ -23,7 +23,6 @@ import java.util.concurrent.atomic.AtomicBoolean;
  */
 public class ReceiveController {
 
-
     @Value("${servicebus.connection-string}")
     private String connectionString;
 
